@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#container {
+    width: 1200px;
+    min-height: 500px;
+    background: #faf9fb;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+#content{
+    visibility: hidden;
+}
+.animated{
+    visibility: visible!important;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+header{
+    height: 100%;
+}
+#top-header{
+    background: #212429;
+    height: 50px;
+}
+.menu-bars{
+    width: 30%;
+}
+.menu-bars  .fa-bars{
+    color: #fff;
+    margin: 16px 10px 10px 20px;
+}
+.logo{
+    background-image:url(./images/Logo.jpg);
+    height: 50px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: -5px;
+}
+.social-icons{
+    width: 40%;
+    text-align: right;
+   
+}
+.social-icons .icon:nth-child(1){
+    border-left: 1px solid #3c3c3c;
+   
+}
+.social-icons .icon{
+    color: #fff;
+    padding: 17px 20px 17px 20px;
+    border-right: 1px solid #3c3c3c;
+  
+    
+}
+
+.menu-bars, 
+.logo,
+.social-icons{
+    float: left;
+}
+
+#header-slider{
+    overflow: hidden;
+    width: 1100px;
+    margin: 0px auto;
+    height: 500px;
+}
+#next{
+    background-image: url(./images/top_arrow.png);
+    height: 30px;
+    width: 20px;
+    position: absolute;
+    top: 7%;
+    right: 10%;
+    z-index: 9999;
+    background-repeat: no-repeat; 
+}
+#prev{
+    background-image: url(./images/bottom_arrow.png);
+    height: 30px;
+    width: 20px;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    z-index: 9999;
+    background-repeat: no-repeat; 
+}
+
+#subs-form{
+    width:  1100px;
+    padding: 10px;
+    margin: 0px auto;
+}
+#subs-form input[type="text"]{
+    padding: 20px;
+    font-size: 12px;
+    border: 1px solid #f3f3f3;
+    background: #fff;
+    color: #000;
+    width: 82%;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.subs-btn{
+    padding: 20px;
+    font-size: 12px;
+    background: #212121;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    width: 82%;
+    border: 1px solid #000;
+    font-family: 'Montserrat', sans-serif;
+}
+#subs-form span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.post{
+    width: 23%;
+  
+    float:left;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    margin: 10px 10px 10px 10px;
+    text-transform: uppercase;
+    transition: 1s ease all;
+    position: relative;
+}
+
+.post:hover{
+    box-shadow: 0px 0px 20px #dbdbdd;
+}
+.post .post-wrapper{
+    padding: 40px 20px 20px 20px;
+}
+.post .post-wrapper.withImg{
+    padding: 30px 10px 10px 10px;
+}
+.post .post-wrapper.withImg .top-icon{
+    background: #212121;
+    text-align: center;
+    width: 30px;
+    padding:  5px 0 5px 0;
+    position: absolute;
+    top: 45%
+    
+}
+.img-box {
+    background:#dfdede;
+    height: 150px;
+}
+.post span{
+    font-size: 12px;
+   
+}
+.post h2{
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5px 0 5px 0;
+}
+.post p{
+    margin: 10px 2px 10px 2px;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: initial;
+}
+.readMore {
+    word-spacing: 5px;
+    color: #000;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid #b3b3b3;
+    border-right: 1px solid #b3b3b3;
+    background: none;
+    outline: none;
+    display: block;
+    margin: 10px auto;
+}
+.top-icon {
+    background: #212121;
+    text-align: center;
+    width: 30px;
+    padding:  5px 0 5px 0;
+    position: absolute;
+    top: -5%;
+    left: 45%;
+}
+.top-icon .fa-pencil-alt{
+    color: #fff;
+}
+footer{
+    background: #212429;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+ 
+}
+footer .footer-section{
+    width: 19%;
+    margin: 10px 2px 2px 2px;
+    float: left;
+    padding: 32px
+
+}
+footer .about .footer-signature{
+    background-image: url(./images/footer_signature.jpg);
+    width: 100%;
+    height:100px;
+    background-size: 100% 100px;
+    margin-top: 20px;
+}
+
+footer .tweets h2,
+footer .instagram h2,
+footer .coments h2,
+footer .about h2{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom:  20px;
+}
+footer .about p,
+footer .tweets p,
+footer .instagram p,
+footer .coments p{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 25px;
+}
+.copyright{
+    background: #17191c;
+    padding: 20px 0 20px 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #e7e7e7;
+    font-size: 12px;
+    word-spacing: 1px;
+}
+nav{
+    width: 250px;
+    height: 235px;;
+    background: #212429;
+    top:0;
+    bottom: 0;
+    z-index:1000;
+    position: absolute;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    transform: translate3d(-250px,0,0);
+    transition: all 1s ease;
+}
+nav ul li{
+    color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+}
+.active-nav{
+    transform: translate3d(0px,0 ,0);
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+        width: 100%;
+
+    }
+    header{
+        width: 70%;
+        height: 49px;
+    }
+    #header-slider{
+        width: 100%;
+        height: auto;
+    }
+    #header-slider img{
+        width: 100%;
+    }
+    #subs-form{
+        width:100%;
+    }
+    #subs-form table tr td{
+        display: block;
+        width: 98%;
+    }
+    .post{
+        width: 96%;
+    }
+    footer{
+        width:98%;
+    }
+    footer .footer-section {
+        widows: 78%;
+        display: block;
+
+    }
+    header .social-icons{
+        display: none;
+    }
+}
